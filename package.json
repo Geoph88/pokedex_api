@@ -1,0 +1,23 @@
+{
+  "name": "pokedex_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geoph88/pokedex_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geoph88/pokedex_api/issues"
+  },
+  "homepage": "https://github.com/Geoph88/pokedex_api#readme",
+  "dependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
