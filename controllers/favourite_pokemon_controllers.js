@@ -3,15 +3,17 @@ const router = express.Router()
 
 const favouritePoke = require('../models/favouritePoke')
 
-router.get('/', (req, res) => {
-  favouritePoke.findAll()
+router.get('/:userId', (req, res) => {
+  const userId = req.session.userId
+  favouritePoke.findAll(userId)
   .then(pokemon => res.json(pokemon))
 })
 
-router.post('/', (req, res) => {
+router.post('/:userId', (req, res) => {
+  const userId = req.session.userId
   const {favouritePokemonName, favouritePokemonImage, favouritePokedexId} = req.body
-  
-  favouritePoke.create(favouritePokemonName, favouritePokedexId, favouritePokemonImage)
+  console.log(req.session.userId)
+  favouritePoke.create(userId, favouritePokemonName, favouritePokedexId, favouritePokemonImage)
   .then(pokemon => res.json(pokemon))
 })
 

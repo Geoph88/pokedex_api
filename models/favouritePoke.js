@@ -2,20 +2,20 @@ const db = require('../db/db')
 
 const favouritePoke = {
 
-  findAll: () => {
-    const sql = `SELECT * FROM favourite_pokemon`
+  findAll: (id) => {
+    const sql = `SELECT * FROM favourite_pokemon WHERE user_id = $1`
 
     return db
-    .query(sql)
+    .query(sql, [id])
     .then(dbRes => dbRes.rows)
   },
 
-  create: (pokemon_name, pokedex_id, image_url) => {
+  create: (user_id, pokemon_name, pokedex_id, image_url) => {
     const sql = `
-    INSERT INTO favourite_pokemon(pokemon_name, pokedex_id, image_url) VALUES ($1, $2, $3) RETURNING *
+    INSERT INTO favourite_pokemon(user_id, pokemon_name, pokedex_id, image_url) VALUES ($1, $2, $3, $4) RETURNING *
     `
-  
-    return db.query(sql, [pokemon_name, pokedex_id, image_url])
+
+    return db.query(sql, [user_id, pokemon_name, pokedex_id, image_url])
     .then(dbRes => dbRes.rows[0])
   },
 
@@ -23,7 +23,6 @@ const favouritePoke = {
     const sql = `
     DELETE FROM favourite_pokemon WHERE id = $1
     `
-    
     return db.query(sql, [pokemonId])
   }
 }
