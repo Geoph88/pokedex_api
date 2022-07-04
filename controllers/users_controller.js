@@ -9,7 +9,7 @@ router.post('/', (req, res) => {
   
   const passwordDigest = bcrypt.hashSync(password, bcrypt.genSaltSync(10), null)
 
-  console.log(name, email, passwordDigest)
+  console.log(req.body)
 
   User
   .create(name, email, passwordDigest)
