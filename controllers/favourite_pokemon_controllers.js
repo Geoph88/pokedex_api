@@ -19,6 +19,7 @@ router.post('/:userId', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   const favouritePokemonId = req.params.id
+  console.log(req.params.id)
 
   favouritePoke
   .delete(favouritePokemonId)

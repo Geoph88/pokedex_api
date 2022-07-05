@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.be9d1eec.css",
-    "main.js": "/static/js/main.23c28668.js",
+    "main.css": "/static/css/main.a2e72a4d.css",
+    "main.js": "/static/js/main.38f9bafe.js",
     "static/js/787.d2388226.chunk.js": "/static/js/787.d2388226.chunk.js",
+    "static/media/poke_ball.jpeg": "/static/media/poke_ball.905eb2f559b9cfac6b52.jpeg",
     "static/media/kyogre.png": "/static/media/kyogre.2100cf752113f7422231.png",
     "static/media/gyarados.png": "/static/media/gyarados.150c964b00f1fd8df9a4.png",
     "static/media/solrock.png": "/static/media/solrock.1d1a3f5bd1545bb9aca1.png",
@@ -15,12 +16,12 @@
     "static/media/solosis.png": "/static/media/solosis.07d2391f3f91adae0e1e.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.be9d1eec.css.map": "/static/css/main.be9d1eec.css.map",
-    "main.23c28668.js.map": "/static/js/main.23c28668.js.map",
+    "main.a2e72a4d.css.map": "/static/css/main.a2e72a4d.css.map",
+    "main.38f9bafe.js.map": "/static/js/main.38f9bafe.js.map",
     "787.d2388226.chunk.js.map": "/static/js/787.d2388226.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be9d1eec.css",
-    "static/js/main.23c28668.js"
+    "static/css/main.a2e72a4d.css",
+    "static/js/main.38f9bafe.js"
   ]
 }
