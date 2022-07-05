@@ -18,7 +18,6 @@ const User = {
     VALUES ($1, $2, $3)
     RETURNING *
     `
-    console.log(req.body)
     return db
     .query(sql, [name, email, passwordDigest])
     .then(dbRes => dbRes.rows[0].name)
