@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6359e8ec.css",
-    "main.js": "/static/js/main.a2118879.js",
+    "main.css": "/static/css/main.be9d1eec.css",
+    "main.js": "/static/js/main.23c28668.js",
     "static/js/787.d2388226.chunk.js": "/static/js/787.d2388226.chunk.js",
+    "static/media/kyogre.png": "/static/media/kyogre.2100cf752113f7422231.png",
+    "static/media/gyarados.png": "/static/media/gyarados.150c964b00f1fd8df9a4.png",
+    "static/media/solrock.png": "/static/media/solrock.1d1a3f5bd1545bb9aca1.png",
+    "static/media/gengar.png": "/static/media/gengar.8b22a12c242397ad8b39.png",
+    "static/media/shiny-magikarp.png": "/static/media/shiny-magikarp.f49de7e11069494f2ede.png",
+    "static/media/regice.png": "/static/media/regice.044a101b834e9e15e1c7.png",
+    "static/media/volcarona.png": "/static/media/volcarona.813b12ce768a974a9ed7.png",
+    "static/media/gyarados-pikachu-image.webp": "/static/media/gyarados-pikachu-image.fb5790e9a2065a08298e.webp",
+    "static/media/porygon-z.png": "/static/media/porygon-z.4a1a6eab5588a145e78f.png",
+    "static/media/solosis.png": "/static/media/solosis.07d2391f3f91adae0e1e.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.6359e8ec.css.map": "/static/css/main.6359e8ec.css.map",
-    "main.a2118879.js.map": "/static/js/main.a2118879.js.map",
+    "main.be9d1eec.css.map": "/static/css/main.be9d1eec.css.map",
+    "main.23c28668.js.map": "/static/js/main.23c28668.js.map",
     "787.d2388226.chunk.js.map": "/static/js/787.d2388226.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6359e8ec.css",
-    "static/js/main.a2118879.js"
+    "static/css/main.be9d1eec.css",
+    "static/js/main.23c28668.js"
   ]
 }
